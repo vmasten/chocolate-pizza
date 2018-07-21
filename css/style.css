@@ -1,0 +1,116 @@
+@import url("/css/reset.css");
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Yellowtail|Oswald|Noto+Serif');
+
+* {
+  /* outline: dotted 1px red; */
+}
+
+body {
+  width: 960px;
+  padding: 20px 100px;
+}
+
+.yellowtail {
+  font-family: "Yellowtail", cursive;
+  position: relative;
+  bottom: 5px;
+  font-size: 40px;
+  margin-bottom: -4px;
+  
+}
+
+.tagline {
+  font-family: "IBM Plex Mono", sans-serif;
+  font-size: 10px;
+}
+
+.title {
+  height: 80px;
+}
+
+.navleft {
+  width: 900px;
+}
+
+.navright {
+  width: 60px;
+  float: right;
+}
+
+.title ul{
+  text-align: right;
+}
+
+.title li {
+  display: inline;
+  position: relative;
+  bottom: 34px;
+  list-style-type: none;
+  margin: 0px -1px;
+}
+
+.logo {
+  float: left;
+}
+
+.gradient {
+  height: 15px;
+  position: relative;
+  width: 100%;
+  background-image: repeating-linear-gradient(45deg,
+      transparent 1px,
+      transparent 1px,
+      white 1px,
+      #dddddd 5px);
+      margin-bottom: 55px;
+}
+
+.post {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.date {
+  font-family: "Ibm Plex Mono";
+  margin-top: 10px;
+  color: #cccccc;
+}
+
+.image {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.recipe1, .recipe2
+{
+  font-family: "Noto Serif";
+  text-indent: 30px;
+  font-size: 17.5px;
+  margin-bottom: 40px;
+  line-height: 25px;
+  color: #777;
+}
+
+.recipe3
+{
+  font-family: "Noto Serif";
+  text-indent: 30px;
+  font-size: 17.5px;
+  margin-bottom: 35px;
+  line-height: 25px;
+  color: #777;
+}
+
+.list-bg {
+  width: 960px;
+  height: 295px;
+  background-image: url("/img/list-bg.png");
+  background-size: 100% 100%;
+}
+
+.list-border {
+  width: 960px;
+  height: 280px;
+  border: 1px solid #edebdc;
+}
