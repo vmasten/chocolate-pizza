@@ -6,7 +6,7 @@
 }
 
 body {
-  width: 960px;
+  width: 900px;
   padding: 20px 100px;
 }
 
@@ -86,7 +86,7 @@ body {
 {
   font-family: "Noto Serif";
   text-indent: 30px;
-  font-size: 17.5px;
+  font-size: 16.5px;
   margin-bottom: 40px;
   line-height: 25px;
   color: #777;
@@ -96,21 +96,51 @@ body {
 {
   font-family: "Noto Serif";
   text-indent: 30px;
-  font-size: 17.5px;
+  font-size: 16.5px;
   margin-bottom: 35px;
   line-height: 25px;
   color: #777;
 }
 
 .list-bg {
-  width: 960px;
+  position: relative;
+  width: 900px;
   height: 295px;
   background-image: url("/img/list-bg.png");
   background-size: 100% 100%;
+  overflow: auto;
 }
 
 .list-border {
-  width: 960px;
+  width: 900px;
   height: 280px;
   border: 1px solid #edebdc;
+}
+
+.ingredients {
+  position: inline-block;
+  column-count: 2;
+  column-height: 180px;
+  padding-top: 45px;
+  padding-left: 62px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.ingredients li {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.container {
+  width: 730px;
+  height: 215px;
+  padding: 30px 60px;
+  overflow: auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
