@@ -1,5 +1,5 @@
 @import url("/css/reset.css");
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Yellowtail|Oswald|Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Yellowtail|Oswald|Noto+Serif|Work+Sans');
 
 * {
   /* outline: dotted 1px red; */
@@ -62,10 +62,10 @@ body {
       transparent 1px,
       white 1px,
       #dddddd 5px);
-      margin-bottom: 55px;
 }
 
 .post {
+  margin-top: 55px;
   font-family: "Oswald", sans-serif;
   font-size: 40px;
   font-weight: bold;
@@ -75,6 +75,12 @@ body {
   font-family: "Ibm Plex Mono";
   margin-top: 10px;
   color: #cccccc;
+  padding-bottom: 30px;
+  columns: 2;
+}
+
+.print {
+  float: right;
 }
 
 .image {
@@ -108,39 +114,99 @@ body {
   height: 295px;
   background-image: url("/img/list-bg.png");
   background-size: 100% 100%;
-  overflow: auto;
+  margin-bottom: 45px;
 }
 
 .list-border {
-  width: 900px;
-  height: 280px;
+  width: 843px;
+  height: 279px;
+  padding-left: 55px;
   border: 1px solid #edebdc;
 }
 
 .ingredients {
-  position: inline-block;
-  column-count: 2;
-  column-height: 180px;
-  padding-top: 45px;
-  padding-left: 62px;
-  font-size: 24px;
-  line-height: 30px;
+  display: inline-block;
+  columns: 2;
+  max-width: 680px;
+  padding-top: 35px;
 }
 
 .ingredients li {
-  font-size: 24px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
   line-height: 30px;
-}
-
-.container {
-  width: 730px;
-  height: 215px;
-  padding: 30px 60px;
-  overflow: auto;
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
+  float: left;
   clear: both;
+  color: #777;
+}
+
+.footer {
+  padding-top: 30px;
+  height: 80px;
+  margin-bottom: 80px;
+}
+
+.footer-img {
+  float: left;
+}
+
+.footer-name {
+  display: inline-block;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: "Noto Serif", serif;
+}
+
+.footer-description {
+  width: 600px;
+  display: inline-block;
+  padding-top: 20px;
+  font-family: "Noto Serif", serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-stretch: expanded;
+  color: #777;
+}
+
+.share-button {
+  position: relative;
+  float: right;
+}
+
+.gutter-container {
+  height: 36px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.gutter {
+  height: 1px;
+  z-index: -1;
+  position: absolute;
+  width: 900px;
+  top: 18px;
+    background-image: repeating-linear-gradient(0deg,
+        transparent 1px,
+        transparent 1px,
+        white 1px,
+        #dddddd 1px);
+  }
+
+.gutter-image {
+text-align: center;
+  z-index: 1;
+}
+
+.shadowed {
+  box-shadow: 5px 0px 5px white,
+              -5px 0px 5px white;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "Noto Serif", serif;
+  color: #777;
+  font-size: 12px;
+  line-height: 1.5em;
+  padding-bottom: 25px;
 }
