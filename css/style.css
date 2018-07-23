@@ -1,0 +1,208 @@
+@import url("/css/reset.css");
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Yellowtail|Oswald|Noto+Serif|Work+Sans');
+
+body {
+  width: 900px;
+  padding: 20px 100px;
+}
+
+.yellowtail {
+  font-family: "Yellowtail", cursive;
+  position: relative;
+  bottom: 5px;
+  font-size: 40px;
+  margin-bottom: -4px;
+  
+}
+
+.tagline {
+  font-family: "IBM Plex Mono", sans-serif;
+  font-size: 10px;
+}
+
+.title {
+  height: 80px;
+}
+
+.navleft {
+  width: 900px;
+}
+
+.navright {
+  width: 60px;
+  float: right;
+}
+
+.title ul{
+  text-align: right;
+}
+
+.title li {
+  display: inline;
+  position: relative;
+  bottom: 34px;
+  list-style-type: none;
+  margin: 0px -1px;
+}
+
+.logo {
+  float: left;
+}
+
+.gradient {
+  height: 15px;
+  position: relative;
+  width: 100%;
+  background-image: repeating-linear-gradient(45deg,
+      transparent 1px,
+      transparent 1px,
+      white 1px,
+      #dddddd 5px);
+}
+
+.post {
+  margin-top: 55px;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.date {
+  font-family: "Ibm Plex Mono";
+  margin-top: 10px;
+  color: #cccccc;
+  padding-bottom: 30px;
+  columns: 2;
+}
+
+.print {
+  float: right;
+}
+
+.image {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.recipe1, .recipe2
+{
+  font-family: "Noto Serif";
+  text-indent: 30px;
+  font-size: 16.5px;
+  margin-bottom: 40px;
+  line-height: 25px;
+  color: #777;
+}
+
+.recipe3
+{
+  font-family: "Noto Serif";
+  text-indent: 30px;
+  font-size: 16.5px;
+  margin-bottom: 35px;
+  line-height: 25px;
+  color: #777;
+}
+
+.list-bg {
+  position: relative;
+  width: 900px;
+  height: 295px;
+  background-image: url("/img/list-bg.png");
+  background-size: 100% 100%;
+  margin-bottom: 45px;
+}
+
+.list-border {
+  width: 843px;
+  height: 279px;
+  padding-left: 55px;
+  border: 1px solid #edebdc;
+}
+
+.ingredients {
+  display: inline-block;
+  columns: 2;
+  max-width: 680px;
+  padding-top: 35px;
+}
+
+.ingredients li {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  float: left;
+  clear: both;
+  color: #777;
+}
+
+.footer {
+  padding-top: 30px;
+  height: 80px;
+  margin-bottom: 80px;
+}
+
+.footer-img {
+  float: left;
+}
+
+.footer-name {
+  display: inline-block;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: "Noto Serif", serif;
+}
+
+.footer-description {
+  width: 600px;
+  display: inline-block;
+  padding-top: 20px;
+  font-family: "Noto Serif", serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-stretch: expanded;
+  color: #777;
+}
+
+.share-button {
+  position: relative;
+  float: right;
+}
+
+.gutter-container {
+  height: 36px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.gutter {
+  height: 1px;
+  z-index: -1;
+  position: absolute;
+  width: 900px;
+  top: 18px;
+    background-image: repeating-linear-gradient(0deg,
+        transparent 1px,
+        transparent 1px,
+        white 1px,
+        #dddddd 1px);
+  }
+
+.gutter-image {
+text-align: center;
+  z-index: 1;
+}
+
+.shadowed {
+  box-shadow: 5px 0px 5px white,
+              -5px 0px 5px white;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "Noto Serif", serif;
+  color: #777;
+  font-size: 12px;
+  line-height: 1.5em;
+  padding-bottom: 25px;
+}
