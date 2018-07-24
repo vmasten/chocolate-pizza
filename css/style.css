@@ -120,10 +120,13 @@ body {
   border: 1px solid #edebdc;
 }
 
+
+
 .ingredients {
-  display: inline-block;
+  display: flex;
+  flex-flow: wrap column;
   columns: 2;
-  max-width: 680px;
+  max-height: 210px;
   padding-top: 35px;
 }
 
@@ -131,10 +134,16 @@ body {
   font-family: "Work Sans", sans-serif;
   font-size: 20px;
   line-height: 30px;
+  max-width: 450px;
   float: left;
   clear: both;
   color: #777;
 }
+
+.strikethrough {
+  text-decoration: line-through; 
+}
+
 
 .footer {
   padding-top: 30px;
